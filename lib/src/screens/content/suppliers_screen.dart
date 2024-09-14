@@ -42,7 +42,9 @@ class _SuppliersScreenState extends State<SuppliersScreen> {
           title: const Text('Proveedores'),
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pop(context);
+            },
           ),
         ),
         body: Center(
